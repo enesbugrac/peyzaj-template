@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "./Button";
 import "./Hero.style.css";
-import video from "../videos/video-2.mp4";
+import video from "../videos/pexels-roman-odintsov-8191171.mp4";
 import poster from "../images/poster.jpg";
 
 import LoadingOverlay from "react-loading-overlay";
