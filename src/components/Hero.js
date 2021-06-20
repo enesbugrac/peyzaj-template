@@ -6,22 +6,21 @@ function Hero() {
   return (
     <div className="hero-container">
       <video src={video} autoPlay loop muted />
-      <h1>MACERA</h1>
-      <p>Ne için bekliyosun?</p>
+      <h1>Perge Peyzaj</h1>
       <div className="hero-btns">
         <Button
           className="btns"
           buttonStyle="btn--outline"
           buttonSize="btn--large"
         >
-          BAŞLA
+          Projeler
         </Button>
         <Button
-          className="btns"
+          className="btns btn-color"
           buttonStyle="btn--primary"
           buttonSize="btn--large"
         >
-          TRAILERI IZLE <i className="far fa-play-circle" />
+          İletişim
         </Button>
       </div>
     </div>

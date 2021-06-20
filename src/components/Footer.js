@@ -6,29 +6,10 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div className="footer-container">
-      <section className="footer-subscription">
-        <p className="footer-subscription-heading">
-          En iyi gezi rehberleri için takip et
-        </p>
-        <p className="footer-subscription-text">
-          İstediğin zaman iptal edebilirsin.
-        </p>
-        <div className="input-areas">
-          <form>
-            <input
-              className="footer-input"
-              name="email"
-              type="email"
-              placeholder="Email"
-            />
-            <Button buttonStyle="btn--outline">Abone Ol</Button>
-          </form>
-        </div>
-      </section>
       <div class="footer-links">
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
-            <h2>About Us</h2>
+            <h2>Hakkımızda</h2>
             <Link to="/sign-up">Nasıl Çalışır</Link>
             <Link to="/">Lorem</Link>
             <Link to="/">Lorem</Link>
@@ -36,7 +17,7 @@ function Footer() {
             <Link to="/">Lorem</Link>
           </div>
           <div class="footer-link-items">
-            <h2>Lorem</h2>
+            <h2>Yardımcı Linkler</h2>
             <Link to="/">Lorem</Link>
             <Link to="/">Lorem</Link>
             <Link to="/">Lorem</Link>
@@ -45,30 +26,15 @@ function Footer() {
         </div>
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
-            <h2>Lorem</h2>
-            <Link to="/">Lorem</Link>
-            <Link to="/">Lorem</Link>
-            <Link to="/">Lorem</Link>
-            <Link to="/">Lorem</Link>
-          </div>
-          <div class="footer-link-items">
-            <h2>Social Media</h2>
-            <Link to="/">Instagram</Link>
-            <Link to="/">Facebook</Link>
-            <Link to="/">Youtube</Link>
-            <Link to="/">Twitter</Link>
+            <h2>İletişim</h2>
+            <Link to="/">Email: testing@gmail.com</Link>
+            <Link to="/">Telefon: 055555555</Link>
+            <Link to="/">Adres: Antalya/Kepez</Link>
           </div>
         </div>
       </div>
       <section class="social-media">
         <div class="social-media-wrap">
-          <div class="footer-logo">
-            <Link to="/" className="social-logo">
-              BURA
-              <i class="fab fa-accusoft"></i>
-            </Link>
-          </div>
-          <small class="website-rights">BURA © 2020</small>
           <div class="social-icons">
             <Link
               class="social-icon-link facebook"
@@ -76,7 +42,7 @@ function Footer() {
               target="_blank"
               aria-label="Facebook"
             >
-              <i class="fab fa-facebook-f" />
+              <i class="fab fa-facebook-f" style={{ color: "#b7e4c7" }} />
             </Link>
             <Link
               class="social-icon-link instagram"
@@ -84,7 +50,7 @@ function Footer() {
               target="_blank"
               aria-label="Instagram"
             >
-              <i class="fab fa-instagram" />
+              <i class="fab fa-instagram" style={{ color: "#b7e4c7" }} />
             </Link>
             <Link
               class="social-icon-link youtube"
@@ -92,7 +58,7 @@ function Footer() {
               target="_blank"
               aria-label="Youtube"
             >
-              <i class="fab fa-youtube" />
+              <i class="fab fa-youtube" style={{ color: "#b7e4c7" }} />
             </Link>
             <Link
               class="social-icon-link twitter"
@@ -100,7 +66,7 @@ function Footer() {
               target="_blank"
               aria-label="Twitter"
             >
-              <i class="fab fa-twitter" />
+              <i class="fab fa-twitter" style={{ color: "#b7e4c7" }} />
             </Link>
             <Link
               class="social-icon-link twitter"
@@ -108,7 +74,7 @@ function Footer() {
               target="_blank"
               aria-label="LinkedIn"
             >
-              <i class="fab fa-linkedin" />
+              <i class="fab fa-linkedin" style={{ color: "#b7e4c7" }} />
             </Link>
           </div>
         </div>

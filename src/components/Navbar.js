@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Button from "./Button";
+import Image from "../images/logo.jpg";
 import { Link } from "react-router-dom";
 import "./Navbar.style.css";
 
@@ -28,11 +29,13 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-          BURA
-          <i class="fab fa-accusoft"></i>
+          <img className="logo-img" src={Image} alt="" />
         </Link>
         <div className="menu-icon" onClick={handleClick}>
-          <i className={click ? "fas fa-times" : "fas fa-bars"} />
+          <i
+            style={{ color: "#74c69d" }}
+            className={click ? "fas fa-times" : "fas fa-bars"}
+          />
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
@@ -41,12 +44,32 @@ function Navbar() {
             </Link>
           </li>
           <li className="nav-item">
+            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+              Hakkımızda
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+              Ürünlerimiz
+            </Link>
+          </li>
+          <li className="nav-item">
             <Link
               to="/services"
               className="nav-links"
               onClick={closeMobileMenu}
             >
-              Servisler
+              Hizmetlerimiz
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+              Referanslar{" "}
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+              İletişim
             </Link>
           </li>
           <li className="nav-item">
@@ -58,18 +81,7 @@ function Navbar() {
               Ürünler
             </Link>
           </li>
-
-          <li>
-            <Link
-              to="/sign-up"
-              className="nav-links-mobile"
-              onClick={closeMobileMenu}
-            >
-              Üye Ol
-            </Link>
-          </li>
         </ul>
-        {button && <Button buttonStyle="btn--outline">ÜYE OL</Button>}
       </div>
     </nav>
   );

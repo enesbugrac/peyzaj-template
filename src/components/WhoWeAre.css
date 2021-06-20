@@ -1,0 +1,40 @@
+.whowheare-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: url("../images/header.jpg") no-repeat center center fixed;
+  height: 100vh;
+  width: 100%;
+}
+.whowheare-text {
+  width: 75%;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .whowheare-video iframe {
+    width: 330px;
+    height: 200px;
+  }
+}
+.whowheare-video {
+  margin-bottom: 30px;
+}
+.whowheare-title {
+  font-weight: 500;
+
+  margin-bottom: 20px;
+  color: #d8f3dc;
+  font-size: 50px;
+}
+.whowheare-desciription {
+  font-weight: 100;
+
+  color: #d8f3dc;
+  font-size: 20px;
+}
