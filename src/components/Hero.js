@@ -2,13 +2,15 @@ import React from "react";
 import Button from "./Button";
 import "./Hero.style.css";
 import video from "../videos/video-2.mp4";
+import poster from "../images/poster.jpg";
+
 import LoadingOverlay from "react-loading-overlay";
 import { useState } from "react";
 
 function Hero() {
   return (
     <div className="hero-container">
-      <video src={video} autoPlay loop muted />
+      <video src={video} poster={poster} autoPlay loop muted />
       <h1>Perge Peyzaj</h1>
       <div className="hero-btns">
         <Button
