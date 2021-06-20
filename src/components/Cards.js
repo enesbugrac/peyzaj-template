@@ -27,6 +27,7 @@ function Cards() {
     setdep(data);
     setisOpen(true);
   };
+  let konyalti = [konyaalti];
 
   let korkuteliimg = [korkuteli];
   let expoimg = [expo, expo3, expo2];
@@ -54,21 +55,21 @@ function Cards() {
               onClick={(data) => detailsModalShow(data)}
               src={kaleiciImg[0]}
               data={kaleiciImg}
-              text="Kaleiçi Projesi"
+              text="Kaleiçi Projesi detaylar için iletişime geçin"
               label="Peyzaj"
             />
             <CardItem
               onClick={(data) => detailsModalShow(data)}
               src={demre[0]}
               data={demre}
-              text="Demre Projesi"
+              text="Demre Projesi detaylar için iletişime geçin"
               label="Peyzaj"
             />
             <CardItem
               onClick={(data) => detailsModalShow(data)}
               src={icvedisimg[0]}
               data={icvedisimg}
-              text="İç ve Dış Mekanlar"
+              text="İç ve Dış Mekanlar "
               label="Peyzaj"
             />
           </ul>
@@ -100,6 +101,13 @@ function Cards() {
               onClick={(data) => detailsModalShow(data)}
               src={perge[0]}
               data={perge}
+              text="Perge Peyzaj"
+              label="Peyzaj"
+            />
+            <CardItem
+              onClick={(data) => detailsModalShow(data)}
+              src={konyalti[0]}
+              data={konyalti}
               text="Perge Peyzaj"
               label="Peyzaj"
             />

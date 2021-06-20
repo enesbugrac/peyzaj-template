@@ -1,10 +1,8 @@
 .cards {
   padding: 4rem;
-  background: #d8f3dc;
+  background: #fcfaf7;
 }
-.cards h1 {
-  color: #1b4332;
-}
+
 h1 {
   text-align: center;
 }
@@ -28,6 +26,7 @@ h1 {
 }
 
 .cards__item {
+  background-color: #fff;
   display: flex;
   flex: 1;
   margin: 0 1rem;
@@ -68,7 +67,7 @@ h1 {
   font-size: 12px;
   font-weight: 700;
   color: #fff;
-  background-color: #2d6a4f;
+  background-color: #568259;
   box-sizing: border-box;
 }
 
@@ -79,7 +78,6 @@ h1 {
   bottom: 0;
   left: 0;
   display: block;
-  min-width: 200px;
   width: 100%;
   max-width: 100%;
   height: 100%;
@@ -97,7 +95,7 @@ h1 {
 }
 
 .cards__item__text {
-  color: #2d6a4f;
+  color: #252e48;
   font-size: 18px;
   line-height: 24px;
 }

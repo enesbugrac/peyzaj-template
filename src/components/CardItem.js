@@ -6,8 +6,8 @@ function CardItem(props) {
     props.onClick(props.data);
   };
   return (
-    <div onClick={handleClick} className="cards__item">
-      <li className="cards__item">
+    <>
+      <li className="cards__item" onClick={handleClick}>
         <div className="cards__item__link">
           <figure className="cards__item__pic-wrap" data-category={props.label}>
             <img
@@ -21,7 +21,7 @@ function CardItem(props) {
           </div>
         </div>
       </li>
-    </div>
+    </>
   );
 }
 
