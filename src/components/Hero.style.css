@@ -21,6 +21,7 @@ video {
 .hero-container > h1 {
   color: #95d5b2;
   font-size: 100px;
+  font-weight: 100;
   margin-top: -100px;
 }
 
