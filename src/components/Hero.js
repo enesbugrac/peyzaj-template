@@ -6,17 +6,26 @@ import poster from "../images/poster.jpg";
 
 import LoadingOverlay from "react-loading-overlay";
 import { useState } from "react";
+import Fade from "react-reveal/Fade";
 
 function Hero() {
   return (
     <div className="hero-container">
       <video src={video} poster={poster} autoPlay loop muted />
-      <h1>Perge Peyzaj</h1>
+      <Fade left>
+        <h1>Perge Peyzaj</h1>
+      </Fade>
       <div className="hero-btns">
         <Button
           className="btns"
           buttonStyle="btn--outline"
           buttonSize="btn--large"
+          onClick={() => {
+            let element = document.getElementById("section1");
+            console.log(element);
+            element &&
+              element.scrollIntoView({ behavior: "smooth", block: "start" });
+          }}
         >
           Projeler
         </Button>

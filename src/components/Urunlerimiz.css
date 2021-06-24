@@ -1,0 +1,12 @@
+.urunlerimizpage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0px 100px;
+}
+.urunlerimizpagewrap {
+  display: flex;
+  justify-content: space-between;
+}

@@ -8,13 +8,15 @@ function WhoWeAre() {
         <h1 className="whowheare-title">Biz Kimiz</h1>
         <h4 className="whowheare-desciription">
           {" "}
-          Choose To Be Fit (C2B) provides a platform and community to connect
-          professionals (Trainers, Nutritionists, Chefs, and Massage Therapists)
-          with clients in their area.. If you need a Trainer to help you meet
-          your fitness goals, a Massage Therapist to provide you with a
-          therapeutic massage, a Nutritionist to design a tailored meal plan, or
-          a Personal Chef to prepare you the perfect meal, choose Choose To Be
-          Fit.
+          Şirketimiz 2014 yılında Antalya merkezde kurulmuştur. Fidanlıklarını
+          2016-2017 yıllarında kurarak sektördeki hizmet yelpazesini
+          genişletmiştir. Merkez ofisimiz 3000 m2 kapalı olmak üzere toplamda
+          20.000 m2 alan ile Antalya’nın Kepez İlçesi Başköy mahallesinde,
+          20.000 m2 alan ile diğer üretim merkezimiz Antalya’nın Aksu İlçesinde
+          bulunmaktadır. Deneyimli çalışma arkadaşlarımızla, açık ve kapalı
+          üretim merkezlerimizdeki ürünlerimizle Yurtiçi ve yurtdışı kamusal
+          alanlarda ve özel sektörde, peyzaj ve çevre düzenleme işlerinde proje,
+          uygulama, ürün satış ve bakım hizmetleri verilmektedir.
         </h4>
       </div>
       <div className="whowheare-video">
@@ -33,7 +35,7 @@ function WhoWeAre() {
         buttonStyle="btn--primary"
         buttonSize="btn--large"
       >
-        İletişim
+        Tanıtım
       </Button>
     </div>
   );

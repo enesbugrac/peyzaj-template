@@ -21,6 +21,15 @@
     width: 330px;
     height: 200px;
   }
+  .whowheare-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url("../images/header.jpg") no-repeat center center fixed;
+    height: 220vh;
+    width: 100%;
+  }
 }
 .whowheare-video {
   margin-bottom: 30px;
@@ -37,4 +46,15 @@
 
   color: #d8f3dc;
   font-size: 20px;
+}
+@media only screen and (max-width: 1024px) {
+  .whowheare-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url("../images/header.jpg") no-repeat center center fixed;
+    height: auto;
+    width: 100%;
+  }
 }

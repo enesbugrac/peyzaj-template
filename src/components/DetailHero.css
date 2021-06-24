@@ -1,0 +1,20 @@
+.detailshero__container {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  padding: 100px 200px;
+  height: 800px;
+}
+.detailshero__title {
+  color: #95d5b2;
+  font-size: 60px;
+  font-weight: 100;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.detailshero__desc {
+  color: #95d5b2;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: left;
+}

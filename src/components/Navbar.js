@@ -7,10 +7,26 @@ import "./Navbar.style.css";
 function Navbar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
+  const [show, setShow] = useState(true);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
+  const controlNavbar = () => {
+    if (window.scrollY > 100) {
+      setShow(false);
+      console.log(show);
+    } else {
+      console.log(show);
+      setShow(true);
+    }
+  };
 
+  useEffect(() => {
+    window.addEventListener("scroll", controlNavbar);
+    return () => {
+      window.removeEventListener("scroll", controlNavbar);
+    };
+  }, []);
   const showButton = () => {
     if (window.innerWidth <= 960) {
       setButton(false);
@@ -26,7 +42,7 @@ function Navbar() {
   window.addEventListener("resize", showButton);
 
   return (
-    <nav className="navbar">
+    <nav className="navbar" id={"navbar"}>
       <div className="navbar-container">
         <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
           <img className="logo-img" src={Image} alt="" />
@@ -44,7 +60,11 @@ function Navbar() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+            <Link
+              to="/hakkımızda"
+              className="nav-links"
+              onClick={closeMobileMenu}
+            >
               Hakkımızda
             </Link>
           </li>
@@ -55,7 +75,7 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <Link
-              to="/services"
+              to="/hizmetlerimiz"
               className="nav-links"
               onClick={closeMobileMenu}
             >
@@ -70,15 +90,6 @@ function Navbar() {
           <li className="nav-item">
             <Link to="/" className="nav-links" onClick={closeMobileMenu}>
               İletişim
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              to="/products"
-              className="nav-links"
-              onClick={closeMobileMenu}
-            >
-              Ürünler
             </Link>
           </li>
         </ul>

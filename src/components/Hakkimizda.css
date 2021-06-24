@@ -1,0 +1,47 @@
+.hakkimizda-container {
+  background-size: cover;
+
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-image: url("/src/images/hakkimizdaBack.jpeg");
+  height: 88vh;
+}
+.hakkimizda-yazikutusu {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-top: 10%;
+  width: 70%;
+  color: white;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hakkimizda-yazi {
+  font-size: medium;
+  opacity: 121;
+  z-index: 2;
+  font-weight: 100;
+  width: 70%;
+}
+@media only screen and (max-width: 1024px) {
+  .hakkimizda-yazi {
+    font-size: x-small;
+    font-weight: 100;
+    width: 90%;
+  }
+  .hakkimizda-yazikutusu {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 30%;
+    width: 70%;
+    color: white;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
