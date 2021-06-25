@@ -24,11 +24,18 @@ import korkuteli from "../images/korkuteli.jpeg";
 import arecastrumuretimsahasi from "../images/arecastrumuretimsahasi.jpeg";
 import { useEffect } from "react";
 import { firestore } from "../firebase";
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
-import Fade from "react-reveal/Fade";
-import { useHistory } from "react-router-dom";
 
+import "react-multi-carousel/lib/styles.css";
+
+import { useHistory } from "react-router-dom";
+import "swiper/swiper.min.css";
+import "swiper/components/effect-coverflow/effect-coverflow.min.css";
+import "swiper/components/pagination/pagination.min.css";
+import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, { EffectCoverflow, Pagination } from "swiper/core";
+
+// install Swiper modules
+SwiperCore.use([EffectCoverflow, Pagination]);
 function Cards() {
   let history = useHistory();
   let detailsModalShow = (data) => {
@@ -96,110 +103,6 @@ function Cards() {
           />
         </ul>
       </div>
-      <h1 id={"section1"}>Projelerimiz</h1>
-      <div className="cards__container">
-        <div className="cards__wrapper">
-          <Carousel
-            additionalTransfrom={0}
-            arrows
-            autoPlaySpeed={3000}
-            centerMode={false}
-            className=""
-            containerClass="container"
-            dotListClass=""
-            draggable
-            focusOnSelect={false}
-            infinite
-            itemClass=""
-            keyBoardControl
-            minimumTouchDrag={80}
-            renderButtonGroupOutside={false}
-            renderDotsOutside
-            responsive={{
-              desktop: {
-                breakpoint: {
-                  max: 3000,
-                  min: 1024,
-                },
-                items: 3,
-              },
-              mobile: {
-                breakpoint: {
-                  max: 464,
-                  min: 0,
-                },
-                items: 1,
-              },
-              tablet: {
-                breakpoint: {
-                  max: 1024,
-                  min: 464,
-                },
-                items: 2,
-              },
-            }}
-            showDots
-            sliderClass=""
-            slidesToSlide={1}
-            swipeable
-          >
-            <CardItem
-              onClick={(data) => detailsModalShow(data)}
-              src={kaleiciImg[0]}
-              data={kaleiciImg}
-              text="Kaleiçi/ANTALYA"
-              label="Perge"
-            />
-            <CardItem
-              onClick={(data) => detailsModalShow(data)}
-              src={demre[0]}
-              data={demre}
-              text="Demre Park/ANTALYA"
-              label="Perge"
-            />
-            <CardItem
-              onClick={(data) => detailsModalShow(data)}
-              src={konyalti[0]}
-              data={konyalti}
-              text="Konyaaltı/ANTALYA"
-              label="Perge"
-            />
-            <CardItem
-              onClick={(data) => detailsModalShow(data)}
-              src={expoimg[0]}
-              data={expoimg}
-              text="Expo/Antalya"
-              label="Perge"
-            />
-            <CardItem
-              onClick={(data) => detailsModalShow(data)}
-              data={sur}
-              src={sur[0]}
-              text="Sur Yapı/ANTALYA"
-              label="Perge"
-            />
-            <CardItem
-              data={korkuteliimg}
-              src={korkuteliimg[0]}
-              text="Korkuteli/ANTALYA"
-              label="Perge"
-              onClick={(data) => detailsModalShow(data)}
-            />
-          </Carousel>
-        </div>
-      </div>
-      {isOpen && (
-        <Lightbox
-          mainSrc={dep[photoIndex]}
-          nextSrc={dep[(photoIndex + 1) % dep.length]}
-          prevSrc={dep[(photoIndex + dep.length - 1) % dep.length]}
-          onCloseRequest={() => detailsModalClose()}
-          onMovePrevRequest={() =>
-            setphotoIndex((photoIndex + dep.length - 1) % dep.length)
-          }
-          onMoveNextRequest={() => setphotoIndex((photoIndex + 1) % dep.length)}
-        />
-      )}
     </div>
   );
 }

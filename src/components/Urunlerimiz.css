@@ -1,6 +1,9 @@
 .urunlerimizpage {
   display: flex;
   flex-direction: column;
+  margin-top: -100px;
+  background-color: #495057;
+  padding-top: 100px;
 }
 .urunlerimizpagewrap {
   display: flex;

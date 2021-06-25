@@ -1,6 +1,6 @@
 .footer-container {
-  background-color: #1b4332;
-  padding: 4rem 0 2rem 0;
+  background-color: #6c757d;
+  padding: 0.5rem 0 2rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,7 +20,7 @@
 }
 
 .footer-subscription > p {
-  color: #95d5b2;
+  color: white;
 
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -49,6 +49,8 @@
 
 .footer-links {
   width: 100%;
+  font-size: 18px;
+
   max-width: 1000px;
   display: flex;
   justify-content: center;
@@ -61,24 +63,23 @@
 .footer-link-items {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   margin: 16px;
-  text-align: left;
+  text-align: center;
   width: 240px;
   box-sizing: border-box;
 }
 
 .footer-link-items h2 {
   margin-bottom: 16px;
-  color: #95d5b2;
+  color: #283618;
 }
 
 .footer-link-items > h2 {
-  color: #95d5b2;
+  color: #283618;
 }
 
 .footer-link-items a {
-  color: #95d5b2;
+  color: #283618;
 
   text-decoration: none;
   margin-bottom: 0.5rem;
@@ -106,14 +107,22 @@
 .social-media {
   max-width: 1000px;
 }
-
+.haklarisaklidir {
+  max-width: 1000px;
+}
+.haklarisaklidir-title {
+  border-top: #b7e4c7 solid 2px;
+  padding-top: 20px;
+  margin-top: 10px;
+  color: #283618;
+}
 .social-media-wrap {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 90%;
   max-width: 1000px;
-  margin: 40px auto 0 auto;
+  margin: 0px auto 0 auto;
 }
 
 .social-icons {
@@ -134,7 +143,9 @@
   align-items: center;
   margin-bottom: 16px;
 }
-
+.haklarisaklidir {
+  width: 1000px;
+}
 .website-rights {
   color: #fff;
   margin-bottom: 16px;

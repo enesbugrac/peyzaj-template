@@ -1,11 +1,24 @@
 .cards {
   padding: 4rem;
-  background: #fcfaf7;
+  background: #495057;
 }
 
-h1 {
+.title-proje {
   font-weight: 400;
   text-align: center;
+  margin-bottom: 100px;
+}
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px !important;
+  height: 300px !important;
 }
 
 .cards__container {
@@ -26,7 +39,7 @@ h1 {
 }
 
 .cards__item {
-  background-color: #fff;
+  background-color: white;
   display: flex;
   flex: 1;
   margin: 0 1rem;
@@ -95,7 +108,7 @@ h1 {
 }
 
 .cards__item__text {
-  color: #252e48;
+  color: #568259;
   font-size: 18px;
   font-weight: 400;
 

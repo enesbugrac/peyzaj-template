@@ -1,37 +1,36 @@
 import React, { useState, useEffect } from "react";
 import Button from "./Button";
-import Image from "../images/logo.jpg";
+import Image from "../images/logo.png";
 import { Link } from "react-router-dom";
 import "./Navbar.style.css";
+import HomeIcon from "@material-ui/icons/Home";
+import { useHistory } from "react-router-dom";
 
 function Navbar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
-  const [show, setShow] = useState(true);
+  const [navbar, setNavbar] = useState(false);
+  let history = useHistory();
 
   const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
-  const controlNavbar = () => {
-    if (window.scrollY > 100) {
-      setShow(false);
-      console.log(show);
-    } else {
-      console.log(show);
-      setShow(true);
-    }
+  const closeMobileMenu = () => {
+    window.scrollTo(0, 0);
+    history.push("/detaylar");
+    setClick(false);
   };
 
-  useEffect(() => {
-    window.addEventListener("scroll", controlNavbar);
-    return () => {
-      window.removeEventListener("scroll", controlNavbar);
-    };
-  }, []);
   const showButton = () => {
     if (window.innerWidth <= 960) {
       setButton(false);
     } else {
       setButton(true);
+    }
+  };
+  const changeColor = () => {
+    if (window.scrollY >= 80) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
     }
   };
 
@@ -40,12 +39,13 @@ function Navbar() {
   }, []);
 
   window.addEventListener("resize", showButton);
+  window.addEventListener("scroll", changeColor);
 
   return (
-    <nav className="navbar" id={"navbar"}>
+    <nav className={navbar ? "navbar active" : "navbar"} id={"navbar"}>
       <div className="navbar-container">
         <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-          <img className="logo-img" src={Image} alt="" />
+          {navbar ? "PERGE" : <img className="logo-img" src={Image} alt="" />}
         </Link>
         <div className="menu-icon" onClick={handleClick}>
           <i
@@ -56,7 +56,7 @@ function Navbar() {
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
             <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-              Ana Sayfa
+              <HomeIcon fontSize="large" />
             </Link>
           </li>
           <li className="nav-item">
@@ -70,7 +70,7 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-              Ürünlerimiz
+              ÜRÜNLERİMİZ
             </Link>
           </li>
           <li className="nav-item">
@@ -79,7 +79,7 @@ function Navbar() {
               className="nav-links"
               onClick={closeMobileMenu}
             >
-              Hizmetlerimiz
+              HİZMETLERİMİZ
             </Link>
           </li>
           <li className="nav-item">
@@ -89,7 +89,7 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-              İletişim
+              İLETİŞİM
             </Link>
           </li>
         </ul>

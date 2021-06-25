@@ -1,11 +1,11 @@
 .hakkimizda-container {
   background-size: cover;
-
+  margin-top: -100px;
   background-position-x: center;
   background-position-y: center;
   background-repeat: no-repeat;
   background-image: url("/src/images/hakkimizdaBack.jpeg");
-  height: 88vh;
+  height: 102vh;
 }
 .hakkimizda-yazikutusu {
   position: absolute;
