@@ -9,7 +9,6 @@ import Fade from "react-reveal/Fade";
 function Urunlerimiz() {
   return (
     <>
-      <Navbar />
       <div className="urunlerimizpage">
         <div className="urunlerimizpagewrap">
           <MusicCardDemo
@@ -32,7 +31,6 @@ function Urunlerimiz() {
           />
         </div>
       </div>
-      <Footer />
     </>
   );
 }

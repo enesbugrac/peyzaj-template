@@ -7,8 +7,6 @@ import "../Hakkimizda.css";
 function Hakkimizda() {
   return (
     <>
-      <Navbar />
-
       <div className="hakkimizda-container">
         <Fade right>
           <div className="hakkimizda-yazikutusu">
@@ -34,7 +32,6 @@ function Hakkimizda() {
           </div>
         </Fade>
       </div>
-      <Footer />
     </>
   );
 }

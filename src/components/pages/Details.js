@@ -10,10 +10,8 @@ function AboutUs() {
   }, []);
   return (
     <div>
-      <Navbar />
       <DetailsHero></DetailsHero>
       <DetailsComp></DetailsComp>
-      <Footer />
     </div>
   );
 }

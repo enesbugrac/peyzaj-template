@@ -9,11 +9,9 @@ import Footer from "../Footer";
 function Home() {
   return (
     <>
-      <Navbar />
       <Hero />
       <Cards />
       <WhoWeAre />
-      <Footer />
     </>
   );
 }

@@ -39,7 +39,7 @@
 }
 
 .cards__item {
-  background-color: white;
+  background: rgba(255, 255, 255, 0.6);
   display: flex;
   flex: 1;
   margin: 0 1rem;
@@ -80,7 +80,7 @@
   font-size: 12px;
   font-weight: 700;
   color: #fff;
-  background-color: #568259;
+  background-color: #696e72;
   box-sizing: border-box;
 }
 
@@ -105,10 +105,11 @@
 
 .cards__item__info {
   padding: 20px 30px 30px;
+  text-align: center;
 }
 
 .cards__item__text {
-  color: #568259;
+  color: #283618;
   font-size: 18px;
   font-weight: 400;
 

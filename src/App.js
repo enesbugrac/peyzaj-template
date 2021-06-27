@@ -12,6 +12,8 @@ import Urunlerimiz from "./components/pages/Hizmetlerimiz";
 function App() {
   return (
     <BrowserRouter>
+      <Navbar />
+
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/detaylar" exact component={Details} />
@@ -19,6 +21,7 @@ function App() {
         <Route path="/hakkımızda" exact component={Hakkimizda} />
         <Route path="/hizmetlerimiz" exact component={Urunlerimiz} />
       </Switch>
+      <Footer />
     </BrowserRouter>
   );
 }

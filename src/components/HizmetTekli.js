@@ -15,6 +15,7 @@ const useStyles = makeStyles(() => ({
     margin: "auto",
     borderRadius: 12,
     padding: 12,
+    background: "rgba(255, 255, 255, 0.6)",
   },
   media: {
     borderRadius: 6,
