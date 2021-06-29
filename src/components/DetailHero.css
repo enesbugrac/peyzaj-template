@@ -3,8 +3,12 @@
   flex-flow: column;
   width: 100%;
   margin-top: -100px;
-  padding: 100px 200px;
   height: 800px;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+.detailshero__text {
+  padding: 100px 200px;
 }
 .detailshero__title {
   margin-top: 10%;
@@ -20,14 +24,23 @@
   font-weight: 100;
   text-align: left;
 }
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 110%;
+  position: fixed;
+  z-index: -1;
+}
 @media screen and (max-width: 960px) {
   .detailshero__container {
     display: flex;
     flex-flow: column;
     width: 100%;
     margin-top: -100px;
-    padding: 100px 40px;
     height: 400px;
+  }
+  .detailshero__text {
+    padding: 60px 30px;
   }
   .detailshero__title {
     margin-top: 10%;
