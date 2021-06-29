@@ -17,23 +17,21 @@ function DetailsHero() {
         loop
         muted
       />
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+
       <div className="detailshero__text">
         <Fade top>
-          <h1 className="detailshero__title">
-            Muz Üretim Merkezi-Boğazkent/ANTALYA
-          </h1>
-          <p className="detailshero__desc">
-            Şirketimiz 2014 yılında Antalya merkezde kurulmuştur. Fidanlıklarını
-            2016-2017 yıllarında kurarak sektördeki hizmet yelpazesini
-            genişletmiştir. Merkez ofisimiz 3000 m2 kapalı olmak üzere toplamda
-            20.000 m2 alan ile Antalya’nın Kepez İlçesi Başköy mahallesinde,
-            20.000 m2 alan ile diğer üretim merkezimiz Antalya’nın Aksu
-            İlçesinde bulunmaktadır.Deneyimli çalışma arkadaşlarımızla, açık ve
-            kapalı üretim merkezlerimizdeki ürünlerimizle Yurtiçi ve yurtdışı
-            kamusal alanlarda ve özel sektörde, peyzaj ve çevre düzenleme
-            işlerinde proje, uygulama, ürün satış ve bakım hizmetleri
-            verilmektedir.
-          </p>
+          <h1 className="detailshero__title">Muz Üretim Merkezi</h1>
+
+          <p className="detailshero__desc">Boğazkent/ANTALYA</p>
         </Fade>
       </div>
     </div>

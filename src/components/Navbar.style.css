@@ -64,6 +64,8 @@
 }
 .nav-links {
   color: white;
+  border-right: #1b4332 2px solid;
+
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -71,7 +73,20 @@
   padding: 0.5rem 1rem;
   height: 100%;
 }
+.nav-linksson {
+  color: white;
 
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  height: 100%;
+}
+.nav-linksson:hover {
+  border-bottom: 4px solid white;
+  transition: all 0.2s ease-out;
+}
 .nav-links:hover {
   border-bottom: 4px solid white;
   transition: all 0.2s ease-out;
@@ -140,6 +155,7 @@
 
   .nav-links {
     text-align: center;
+
     padding: 2rem;
     width: 100%;
     display: table;

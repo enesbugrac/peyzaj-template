@@ -5,6 +5,9 @@ import Home from "./components/pages/Home";
 import "./App.css";
 import Footer from "./components/Footer";
 import Details from "./components/pages/Details";
+import DetailsAre from "./components/pages/DetailsAre";
+import DetailsFidan from "./components/pages/DetailsFidan";
+
 import Admin from "./components/pages/Admin";
 import Hakkimizda from "./components/pages/Hakkimizda";
 import Urunlerimiz from "./components/pages/Hizmetlerimiz";
@@ -16,7 +19,10 @@ function App() {
 
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/detaylar" exact component={Details} />
+        <Route path="/muz" exact component={Details} />
+        <Route path="/arecastrum" exact component={DetailsAre} />
+        <Route path="/fidanlik" exact component={DetailsFidan} />
+
         <Route path="/admin" exact component={Admin} />
         <Route path="/hakkımızda" exact component={Hakkimizda} />
         <Route path="/hizmetlerimiz" exact component={Urunlerimiz} />

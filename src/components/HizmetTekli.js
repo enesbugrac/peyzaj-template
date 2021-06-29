@@ -12,6 +12,7 @@ import "./HizmetTekli.css";
 const useStyles = makeStyles(() => ({
   root: {
     maxWidth: 460,
+    width: 300,
     margin: "auto",
     borderRadius: 12,
     padding: 12,
@@ -19,6 +20,7 @@ const useStyles = makeStyles(() => ({
   },
   media: {
     borderRadius: 6,
+    height: 400,
   },
 }));
 
@@ -38,9 +40,6 @@ export const MusicCardDemo = React.memo(function MusicCard({ link, proje }) {
           classes={textCardContentStyles}
           color="#95d5b2"
           heading={proje}
-          body={
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          }
         />
       </CardContent>
     </Card>

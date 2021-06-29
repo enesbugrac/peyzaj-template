@@ -11,7 +11,7 @@ import kaleici2 from "../images/kaleici (2).jpeg";
 import expo from "../images/expo.jpeg";
 import expo2 from "../images/expo (2).jpeg";
 import expo3 from "../images/expo (3).jpeg";
-import icdis from "../images/içvedişmekanuretimsahasi.jpeg";
+import fidanlikana from "../images/fidanlikana.jpg";
 import icdis1 from "../images/içvedişmekanuretimsahasi (2).jpeg";
 import icdis2 from "../images/içvedişmekanuretimsahasi (3).jpeg";
 import icdis3 from "../images/içvedişmekanuretimsahasi (4).jpeg";
@@ -38,9 +38,10 @@ import SwiperCore, { EffectCoverflow, Pagination } from "swiper/core";
 SwiperCore.use([EffectCoverflow, Pagination]);
 function Cards() {
   let history = useHistory();
-  let detailsModalShow = (data) => {
+  let detailsModalShow = (data, path) => {
     window.scrollTo(0, 0);
-    history.push("/detaylar");
+    console.log(path);
+    history.push(path);
   };
   const [allData, setallData] = useState([]);
   useEffect(() => {
@@ -81,24 +82,30 @@ function Cards() {
       <div className="cards__wrapper">
         <ul className="cards__items">
           <CardItem
-            onClick={(data) => detailsModalShow(data)}
-            src={fidanlık[0]}
+            onClick={(data, path) => detailsModalShow(data, path)}
+            src={fidanlikana}
             data={fidanlık}
-            text="Fidanlık Merkezi-Kepez/ANTALYA"
+            path="/fidanlik"
+            text="Fidanlık Merkezi"
+            desc="Kepez/ANTALYA"
             label="Perge"
           />
           <CardItem
-            onClick={(data) => detailsModalShow(data)}
+            onClick={(data, path) => detailsModalShow(data, path)}
             src={arecastrumuretimsahasiImg[0]}
+            path="/arecastrum"
             data={arecastrumuretimsahasiImg}
-            text="Arecastrum Üretim Merkezi-Aksu/ANTALYA"
+            desc="Aksu/ANTALYA"
+            text="Arecastrum Üretim Merkezi"
             label="Perge"
           />
           <CardItem
-            onClick={(data) => detailsModalShow(data)}
+            onClick={(data, path) => detailsModalShow(data, path)}
             src={muzuretimsahasiImg[0]}
             data={muzuretimsahasiImg}
-            text="Muz Üretim Merkezi-Boğazkent/ANTALYA"
+            path="/muz"
+            text="Muz Üretim Merkezi"
+            desc="Boğazkent/ANTALYA"
             label="Perge"
           />
         </ul>
