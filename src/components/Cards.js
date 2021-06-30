@@ -2,25 +2,12 @@ import React from "react";
 import CardItem from "./CardItem";
 import "./Cards.css";
 import { useState } from "react";
-import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
-import demre1 from "../images/demresahili (2).jpeg";
-import demre2 from "../images/demresahili.jpeg";
-import kaleici from "../images/kaleici.jpeg";
-import kaleici2 from "../images/kaleici (2).jpeg";
-import expo from "../images/expo.jpeg";
-import expo2 from "../images/expo (2).jpeg";
-import expo3 from "../images/expo (3).jpeg";
+
 import fidanlikana from "../images/fidanlikana.jpg";
-import icdis1 from "../images/içvedişmekanuretimsahasi (2).jpeg";
-import icdis2 from "../images/içvedişmekanuretimsahasi (3).jpeg";
-import icdis3 from "../images/içvedişmekanuretimsahasi (4).jpeg";
-import suryapi from "../images/suryapi.jpeg";
-import pergepeyzaj from "../images/pergepeyzaj.jpeg";
-import pergepeyzaj1 from "../images/pergepeyzaj (2).jpeg";
+
 import muzuretimsahasi from "../images/muzuretimsahasi.jpeg";
-import konyaalti from "../images/konyaalti.jpeg";
-import korkuteli from "../images/korkuteli.jpeg";
+
 import arecastrumuretimsahasi from "../images/arecastrumuretimsahasi.jpeg";
 import { useEffect } from "react";
 import { firestore } from "../firebase";
@@ -57,17 +44,8 @@ function Cards() {
     setallData(arr);
     console.log(allData, arr);
   }, []);
-  let konyalti = [konyaalti];
-
-  let korkuteliimg = [korkuteli];
-  let expoimg = [expo, expo3, expo2];
-  let fidanlık = [expo2];
 
   let muzuretimsahasiImg = [muzuretimsahasi];
-  let sur = [suryapi];
-  let perge = [pergepeyzaj, pergepeyzaj1];
-  let demre = [demre1, demre2];
-  let kaleiciImg = [kaleici2, kaleici];
   let arecastrumuretimsahasiImg = [arecastrumuretimsahasi];
 
   const [dep, setdep] = useState([]);
@@ -84,7 +62,6 @@ function Cards() {
           <CardItem
             onClick={(data, path) => detailsModalShow(data, path)}
             src={fidanlikana}
-            data={fidanlık}
             path="/fidanlik"
             text="Fidanlık Merkezi"
             desc="Kepez/ANTALYA"
@@ -94,7 +71,6 @@ function Cards() {
             onClick={(data, path) => detailsModalShow(data, path)}
             src={arecastrumuretimsahasiImg[0]}
             path="/arecastrum"
-            data={arecastrumuretimsahasiImg}
             desc="Aksu/ANTALYA"
             text="Arecastrum Üretim Merkezi"
             label="Perge"
@@ -102,7 +78,6 @@ function Cards() {
           <CardItem
             onClick={(data, path) => detailsModalShow(data, path)}
             src={muzuretimsahasiImg[0]}
-            data={muzuretimsahasiImg}
             path="/muz"
             text="Muz Üretim Merkezi"
             desc="Boğazkent/ANTALYA"

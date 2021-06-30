@@ -160,13 +160,30 @@
     width: 100%;
     display: table;
   }
-
+  .nav-linksson:hover {
+    background-color: #fff;
+    color: #242424;
+    border-radius: 0;
+  }
   .nav-links:hover {
     background-color: #fff;
     color: #242424;
     border-radius: 0;
   }
+  .nav-links {
+    text-align: center;
 
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  }
+  .nav-linksson {
+    text-align: center;
+
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  }
   .navbar-logo {
     position: absolute;
     top: 0;

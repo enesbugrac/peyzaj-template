@@ -1,6 +1,5 @@
 import React from "react";
 import "./main.css";
-import demre1 from "../images/demresahili (2).jpeg";
 import muz1 from "../images/muz (1).jpeg";
 import muz2 from "../images/muz (2).jpeg";
 import muz3 from "../images/muz (3).jpeg";

@@ -38,6 +38,7 @@ video {
 }
 
 .hero-textt > p {
+  text-align: center;
   color: #6b9080;
   font-size: 30px;
   margin-top: 10px;
@@ -74,6 +75,25 @@ video {
 }
 
 @media screen and (max-width: 768px) {
+  .hero-container {
+    /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+    height: 120vh;
+    width: 100%;
+    margin-top: -150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    background: -webkit-linear-gradient(
+      bottom,
+      rgba(39, 39, 39, 1) 0%,
+      rgba(39, 39, 39, 0.75) 26%,
+      rgba(39, 39, 39, 0.2) 100%
+    );
+    object-fit: contain;
+  }
+
   .hero-container > h1 {
     font-size: 50px;
     margin-top: -100px;

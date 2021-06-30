@@ -1,6 +1,5 @@
 import React from "react";
 import "./main.css";
-import demre1 from "../images/demresahili (2).jpeg";
 import arec1 from "../images/arec (1).jpg";
 import arec2 from "../images/arec (2).jpg";
 import arec3 from "../images/arec (3).jpg";
