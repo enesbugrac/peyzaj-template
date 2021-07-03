@@ -8,7 +8,6 @@ import { useHistory } from "react-router-dom";
 
 function Navbar() {
   const [click, setClick] = useState(false);
-  const [button, setButton] = useState(true);
   const [navbar, setNavbar] = useState(false);
   let history = useHistory();
 
@@ -19,26 +18,14 @@ function Navbar() {
     setClick(false);
   };
 
-  const showButton = () => {
-    if (window.innerWidth <= 960) {
-      setButton(false);
-    } else {
-      setButton(true);
-    }
-  };
   const changeColor = () => {
-    if (window.scrollY >= 80) {
+    if (window.scrollY >= 10) {
       setNavbar(true);
     } else {
       setNavbar(false);
     }
   };
 
-  useEffect(() => {
-    showButton();
-  }, []);
-
-  window.addEventListener("resize", showButton);
   window.addEventListener("scroll", changeColor);
 
   return (
@@ -69,7 +56,11 @@ function Navbar() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+            <Link
+              to="/urunlerimiz"
+              className="nav-links"
+              onClick={closeMobileMenu}
+            >
               ÜRÜNLERİMİZ
             </Link>
           </li>
@@ -83,12 +74,20 @@ function Navbar() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+            <Link
+              to="/referanslar"
+              className="nav-links"
+              onClick={closeMobileMenu}
+            >
               Referanslar{" "}
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/" className="nav-linksson" onClick={closeMobileMenu}>
+            <Link
+              to="/iletisim"
+              className="nav-linksson"
+              onClick={closeMobileMenu}
+            >
               İLETİŞİM
             </Link>
           </li>
