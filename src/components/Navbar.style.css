@@ -109,8 +109,7 @@
   .navbar.active {
     height: 80px;
     box-shadow: 0 0 35px rgb(0 0 0 / 10%);
-    background: transparent;
-    background-color: #696e72;
+    background: rgba(105, 110, 114, 0.8);
   }
   .navbar {
     height: 80px;
