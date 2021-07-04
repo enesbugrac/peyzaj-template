@@ -1,0 +1,98 @@
+.urunlerimizsayfa {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 320px;
+}
+.urunlerimiz {
+  width: 100%;
+  background-color: #495057;
+  margin-top: -100px;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.urunlerimizpageimgone {
+  width: 50%;
+  height: 320px;
+  background-position: center center;
+  object-fit: cover;
+  background-size: cover;
+}
+.urunlerimizpagetext {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #495057;
+  color: #6b9080;
+  padding: 25px;
+  text-align: center;
+}
+.urunlerimizpagetext-icon {
+  font-size: 28px;
+}
+.urunlerimizpagetext-title {
+  font-size: 28px;
+  font-weight: bold;
+}
+.urunlerimizpagetext-desc {
+  font-size: 18px;
+}
+.urunlerimizpageimgtwo {
+  width: 25%;
+  height: 320px;
+  background-position: center center;
+  object-fit: cover;
+  background-size: cover;
+}
+@media screen and (max-width: 960px) {
+  .urunlerimizsayfa {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+  }
+  .urunlerimiz {
+    width: 100%;
+    background-color: #495057;
+    margin-top: -100px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  .urunlerimizpageimgone {
+    width: 100%;
+    height: 50%;
+    background-position: center center;
+    object-fit: cover;
+    background-size: cover;
+  }
+  .urunlerimizpagetext {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #495057;
+    color: #6b9080;
+    text-align: center;
+  }
+  .urunlerimizpagetext-icon {
+    font-size: 20px;
+  }
+  .urunlerimizpagetext-title {
+    font-size: 2px;
+  }
+  .urunlerimizpagetext-desc {
+    font-size: 8px;
+  }
+  .urunlerimizpageimgtwo {
+    width: 100%;
+
+    background-position: center center;
+    object-fit: cover;
+    background-size: cover;
+  }
+}

@@ -17,139 +17,246 @@ import arec15 from "../../images/urunlerimiz/urunlerimiz (15).jpeg";
 import arec16 from "../../images/urunlerimiz/urunlerimiz (16).jpeg";
 import arec17 from "../../images/urunlerimiz/urunlerimiz (17).jpeg";
 import arec18 from "../../images/urunlerimiz/urunlerimiz (18).jpeg";
-import "../Bogacayi.css";
-
+import "../Urunlerimiz.css";
 import Slide from "react-reveal/Slide";
 function Urunlerimiz() {
   return (
-    <section id="one" className="ana">
-      <Slide left>
-        <article
-          style={{
-            backgroundImage: `url('${arec1}')`,
-          }}
-        ></article>
-      </Slide>
-      <Slide right>
-        <article
-          style={{
-            backgroundImage: `url('${arec2}')`,
-          }}
-        ></article>
-      </Slide>
-      <Slide left>
-        <article
-          style={{
-            backgroundImage: `url('${arec3}')`,
-          }}
-        ></article>
-      </Slide>
-      <Slide right>
-        <article
-          style={{
-            backgroundImage: `url('${arec4}')`,
-          }}
-        ></article>
-      </Slide>
-      <Slide left>
-        <article
-          style={{
-            backgroundImage: `url('${arec5}')`,
-          }}
-        ></article>
-      </Slide>
-      <Slide right>
-        <article
-          style={{
-            backgroundImage: `url('${arec6}')`,
-          }}
-        ></article>
-      </Slide>
-      <Slide left>
-        <article
-          style={{
-            backgroundImage: `url('${arec7}')`,
-          }}
-        ></article>
-      </Slide>
-      <Slide right>
-        <article
-          style={{
-            backgroundImage: `url('${arec8}')`,
-          }}
-        ></article>
-      </Slide>
-      <Slide left>
-        <article
-          style={{
-            backgroundImage: `url('${arec9}')`,
-          }}
-        ></article>
-      </Slide>
-      <Slide right>
-        <article
-          style={{
-            backgroundImage: `url('${arec10}')`,
-          }}
-        ></article>
-      </Slide>
-      <Slide left>
-        <article
-          style={{
-            backgroundImage: `url('${arec11}')`,
-          }}
-        ></article>
-      </Slide>
-      <Slide right>
-        <article
-          style={{
-            backgroundImage: `url('${arec12}')`,
-          }}
-        ></article>
-      </Slide>
-      <Slide left>
-        <article
-          style={{
-            backgroundImage: `url('${arec13}')`,
-          }}
-        ></article>
-      </Slide>
-      <Slide right>
-        <article
-          style={{
-            backgroundImage: `url('${arec14}')`,
-          }}
-        ></article>
-      </Slide>
-      <Slide left>
-        <article
-          style={{
-            backgroundImage: `url('${arec15}')`,
-          }}
-        ></article>
-      </Slide>
-      <Slide right>
-        <article
-          style={{
-            backgroundImage: `url('${arec16}')`,
-          }}
-        ></article>
-      </Slide>
-      <Slide left>
-        <article
-          style={{
-            backgroundImage: `url('${arec17}')`,
-          }}
-        ></article>
-      </Slide>
-      <Slide right>
-        <article
-          style={{
-            backgroundImage: `url('${arec18}')`,
-          }}
-        ></article>
-      </Slide>
-    </section>
+    <div className="urunlerimiz">
+      <div className="urunlerimizsayfa">
+        <Slide left>
+          <div
+            style={{
+              backgroundImage: `url('${arec1}')`,
+            }}
+            className="urunlerimizpageimgone"
+          ></div>
+          <div className="urunlerimizpagetext">
+            <i class="fas fa-tree urunlerimizpagetext-icon"></i>
+            <p className="urunlerimizpagetext-title">Lorem ipsum</p>
+            <p className="urunlerimizpagetext-desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse cursus, sem vitae consectetur scelerisque, massa ipsum
+              consectetur quam, ac commodo ligula mi non nisl. Fusce quis ex
+              lorem.{" "}
+            </p>
+          </div>
+          <div
+            className="urunlerimizpageimgtwo"
+            style={{
+              backgroundImage: `url('${arec2}')`,
+            }}
+          ></div>
+        </Slide>
+      </div>
+      <div className="urunlerimizsayfa">
+        <Slide left>
+          <div
+            style={{
+              backgroundImage: `url('${arec3}')`,
+            }}
+            className="urunlerimizpageimgtwo"
+          ></div>
+          <div className="urunlerimizpagetext">
+            <i class="fab fa-pagelines urunlerimizpagetext-icon"></i>
+            <p className="urunlerimizpagetext-title">Lorem ipsum</p>
+            <p className="urunlerimizpagetext-desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse cursus, sem vitae consectetur scelerisque, massa ipsum
+              consectetur quam, ac commodo ligula mi non nisl. Fusce quis ex
+              lorem.{" "}
+            </p>
+          </div>
+          <div
+            className="urunlerimizpageimgone"
+            style={{
+              backgroundImage: `url('${arec4}')`,
+            }}
+          ></div>
+        </Slide>
+      </div>
+      <div className="urunlerimizsayfa">
+        <Slide left>
+          <div
+            style={{
+              backgroundImage: `url('${arec5}')`,
+            }}
+            className="urunlerimizpageimgone"
+          ></div>
+          <div className="urunlerimizpagetext">
+            <i class="fas fa-tree urunlerimizpagetext-icon"></i>
+            <p className="urunlerimizpagetext-title">Lorem ipsum</p>
+            <p className="urunlerimizpagetext-desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse cursus, sem vitae consectetur scelerisque, massa ipsum
+              consectetur quam, ac commodo ligula mi non nisl. Fusce quis ex
+              lorem.{" "}
+            </p>
+          </div>
+          <div
+            className="urunlerimizpageimgtwo"
+            style={{
+              backgroundImage: `url('${arec6}')`,
+            }}
+          ></div>
+        </Slide>
+      </div>
+      <div className="urunlerimizsayfa">
+        <Slide left>
+          <div
+            style={{
+              backgroundImage: `url('${arec7}')`,
+            }}
+            className="urunlerimizpageimgtwo"
+          ></div>
+          <div className="urunlerimizpagetext">
+            <i class="fab fa-pagelines urunlerimizpagetext-icon"></i>
+            <p className="urunlerimizpagetext-title">Lorem ipsum</p>
+            <p className="urunlerimizpagetext-desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse cursus, sem vitae consectetur scelerisque, massa ipsum
+              consectetur quam, ac commodo ligula mi non nisl. Fusce quis ex
+              lorem.{" "}
+            </p>
+          </div>
+          <div
+            className="urunlerimizpageimgone"
+            style={{
+              backgroundImage: `url('${arec8}')`,
+            }}
+          ></div>
+        </Slide>
+      </div>
+      <div className="urunlerimizsayfa">
+        <Slide left>
+          <div
+            style={{
+              backgroundImage: `url('${arec9}')`,
+            }}
+            className="urunlerimizpageimgone"
+          ></div>
+          <div className="urunlerimizpagetext">
+            <i class="fas fa-tree urunlerimizpagetext-icon"></i>
+            <p className="urunlerimizpagetext-title">Lorem ipsum</p>
+            <p className="urunlerimizpagetext-desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse cursus, sem vitae consectetur scelerisque, massa ipsum
+              consectetur quam, ac commodo ligula mi non nisl. Fusce quis ex
+              lorem.{" "}
+            </p>
+          </div>
+          <div
+            className="urunlerimizpageimgtwo"
+            style={{
+              backgroundImage: `url('${arec10}')`,
+            }}
+          ></div>
+        </Slide>
+      </div>
+      <div className="urunlerimizsayfa">
+        <Slide left>
+          <div
+            style={{
+              backgroundImage: `url('${arec11}')`,
+            }}
+            className="urunlerimizpageimgtwo"
+          ></div>
+          <div className="urunlerimizpagetext">
+            <i class="fab fa-pagelines urunlerimizpagetext-icon"></i>
+            <p className="urunlerimizpagetext-title">Lorem ipsum</p>
+            <p className="urunlerimizpagetext-desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse cursus, sem vitae consectetur scelerisque, massa ipsum
+              consectetur quam, ac commodo ligula mi non nisl. Fusce quis ex
+              lorem.{" "}
+            </p>
+          </div>
+          <div
+            className="urunlerimizpageimgone"
+            style={{
+              backgroundImage: `url('${arec12}')`,
+            }}
+          ></div>
+        </Slide>
+      </div>
+      <div className="urunlerimizsayfa">
+        <Slide left>
+          <div
+            style={{
+              backgroundImage: `url('${arec13}')`,
+            }}
+            className="urunlerimizpageimgone"
+          ></div>
+          <div className="urunlerimizpagetext">
+            <i class="fas fa-tree urunlerimizpagetext-icon"></i>
+            <p className="urunlerimizpagetext-title">Lorem ipsum</p>
+            <p className="urunlerimizpagetext-desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse cursus, sem vitae consectetur scelerisque, massa ipsum
+              consectetur quam, ac commodo ligula mi non nisl. Fusce quis ex
+              lorem.{" "}
+            </p>
+          </div>
+          <div
+            className="urunlerimizpageimgtwo"
+            style={{
+              backgroundImage: `url('${arec14}')`,
+            }}
+          ></div>
+        </Slide>
+      </div>
+      <div className="urunlerimizsayfa">
+        <Slide left>
+          <div
+            style={{
+              backgroundImage: `url('${arec15}')`,
+            }}
+            className="urunlerimizpageimgtwo"
+          ></div>
+          <div className="urunlerimizpagetext">
+            <i class="fab fa-pagelines urunlerimizpagetext-icon"></i>
+            <p className="urunlerimizpagetext-title">Lorem ipsum</p>
+            <p className="urunlerimizpagetext-desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse cursus, sem vitae consectetur scelerisque, massa ipsum
+              consectetur quam, ac commodo ligula mi non nisl. Fusce quis ex
+              lorem.{" "}
+            </p>
+          </div>
+          <div
+            className="urunlerimizpageimgone"
+            style={{
+              backgroundImage: `url('${arec16}')`,
+            }}
+          ></div>
+        </Slide>
+      </div>
+      <div className="urunlerimizsayfa">
+        <Slide left>
+          <div
+            style={{
+              backgroundImage: `url('${arec17}')`,
+            }}
+            className="urunlerimizpageimgone"
+          ></div>
+          <div className="urunlerimizpagetext">
+            <i class="fas fa-tree urunlerimizpagetext-icon"></i>
+            <p className="urunlerimizpagetext-title">Lorem ipsum</p>
+            <p className="urunlerimizpagetext-desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse cursus, sem vitae consectetur scelerisque, massa ipsum
+              consectetur quam, ac commodo ligula mi non nisl. Fusce quis ex
+              lorem.{" "}
+            </p>
+          </div>
+          <div
+            className="urunlerimizpageimgtwo"
+            style={{
+              backgroundImage: `url('${arec18}')`,
+            }}
+          ></div>
+        </Slide>
+      </div>
+    </div>
   );
 }
 
