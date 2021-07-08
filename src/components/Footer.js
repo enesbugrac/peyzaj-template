@@ -9,9 +9,11 @@ function Footer() {
       <div class="footer-links">
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
-            <Link to="/">Email: testing@gmail.com</Link>
-            <Link to="/">Telefon: 055555555</Link>
-            <Link to="/">Adres: Antalya/Kepez</Link>
+            <Link to="/">Fax: +90 242 322 55 72</Link>
+            <Link to="/">Santral: +90 533 154 03 72</Link>
+            <Link to="/">
+              Adres: Başköy Mah. Narçiçeği Sok. No:26 Kepez/ANTALYA
+            </Link>
           </div>
         </div>
       </div>
