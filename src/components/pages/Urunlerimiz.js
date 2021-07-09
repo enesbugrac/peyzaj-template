@@ -32,13 +32,7 @@ function Urunlerimiz() {
           ></div>
           <div className="urunlerimizpagetext">
             <i class="fas fa-tree urunlerimizpagetext-icon"></i>
-            <p className="urunlerimizpagetext-title">Lorem ipsum</p>
-            <p className="urunlerimizpagetext-desc">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse cursus, sem vitae consectetur scelerisque, massa ipsum
-              consectetur quam, ac commodo ligula mi non nisl. Fusce quis ex
-              lorem.{" "}
-            </p>
+            <p className="urunlerimizpagetext-title">Ağaçlar</p>
           </div>
           <div
             className="urunlerimizpageimgtwo"
@@ -58,13 +52,7 @@ function Urunlerimiz() {
           ></div>
           <div className="urunlerimizpagetext">
             <i class="fab fa-pagelines urunlerimizpagetext-icon"></i>
-            <p className="urunlerimizpagetext-title">Lorem ipsum</p>
-            <p className="urunlerimizpagetext-desc">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse cursus, sem vitae consectetur scelerisque, massa ipsum
-              consectetur quam, ac commodo ligula mi non nisl. Fusce quis ex
-              lorem.{" "}
-            </p>
+            <p className="urunlerimizpagetext-title">Ağaçcıklar</p>
           </div>
           <div
             className="urunlerimizpageimgone"
@@ -84,13 +72,7 @@ function Urunlerimiz() {
           ></div>
           <div className="urunlerimizpagetext">
             <i class="fas fa-tree urunlerimizpagetext-icon"></i>
-            <p className="urunlerimizpagetext-title">Lorem ipsum</p>
-            <p className="urunlerimizpagetext-desc">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse cursus, sem vitae consectetur scelerisque, massa ipsum
-              consectetur quam, ac commodo ligula mi non nisl. Fusce quis ex
-              lorem.{" "}
-            </p>
+            <p className="urunlerimizpagetext-title">Mevsimlikler</p>
           </div>
           <div
             className="urunlerimizpageimgtwo"
@@ -110,13 +92,7 @@ function Urunlerimiz() {
           ></div>
           <div className="urunlerimizpagetext">
             <i class="fab fa-pagelines urunlerimizpagetext-icon"></i>
-            <p className="urunlerimizpagetext-title">Lorem ipsum</p>
-            <p className="urunlerimizpagetext-desc">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse cursus, sem vitae consectetur scelerisque, massa ipsum
-              consectetur quam, ac commodo ligula mi non nisl. Fusce quis ex
-              lorem.{" "}
-            </p>
+            <p className="urunlerimizpagetext-title">Yer Örtücüler</p>
           </div>
           <div
             className="urunlerimizpageimgone"
@@ -136,13 +112,7 @@ function Urunlerimiz() {
           ></div>
           <div className="urunlerimizpagetext">
             <i class="fas fa-tree urunlerimizpagetext-icon"></i>
-            <p className="urunlerimizpagetext-title">Lorem ipsum</p>
-            <p className="urunlerimizpagetext-desc">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse cursus, sem vitae consectetur scelerisque, massa ipsum
-              consectetur quam, ac commodo ligula mi non nisl. Fusce quis ex
-              lorem.{" "}
-            </p>
+            <p className="urunlerimizpagetext-title">Çalılar</p>
           </div>
           <div
             className="urunlerimizpageimgtwo"
@@ -162,13 +132,7 @@ function Urunlerimiz() {
           ></div>
           <div className="urunlerimizpagetext">
             <i class="fab fa-pagelines urunlerimizpagetext-icon"></i>
-            <p className="urunlerimizpagetext-title">Lorem ipsum</p>
-            <p className="urunlerimizpagetext-desc">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse cursus, sem vitae consectetur scelerisque, massa ipsum
-              consectetur quam, ac commodo ligula mi non nisl. Fusce quis ex
-              lorem.{" "}
-            </p>
+            <p className="urunlerimizpagetext-title">Çim</p>
           </div>
           <div
             className="urunlerimizpageimgone"
@@ -188,12 +152,8 @@ function Urunlerimiz() {
           ></div>
           <div className="urunlerimizpagetext">
             <i class="fas fa-tree urunlerimizpagetext-icon"></i>
-            <p className="urunlerimizpagetext-title">Lorem ipsum</p>
-            <p className="urunlerimizpagetext-desc">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse cursus, sem vitae consectetur scelerisque, massa ipsum
-              consectetur quam, ac commodo ligula mi non nisl. Fusce quis ex
-              lorem.{" "}
+            <p className="urunlerimizpagetext-title">
+              Tırmanıcı ve Sarılıcı Bitkiler
             </p>
           </div>
           <div
@@ -214,13 +174,7 @@ function Urunlerimiz() {
           ></div>
           <div className="urunlerimizpagetext">
             <i class="fab fa-pagelines urunlerimizpagetext-icon"></i>
-            <p className="urunlerimizpagetext-title">Lorem ipsum</p>
-            <p className="urunlerimizpagetext-desc">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse cursus, sem vitae consectetur scelerisque, massa ipsum
-              consectetur quam, ac commodo ligula mi non nisl. Fusce quis ex
-              lorem.{" "}
-            </p>
+            <p className="urunlerimizpagetext-title">İthal Süs Bitkileri</p>
           </div>
           <div
             className="urunlerimizpageimgone"
@@ -240,13 +194,7 @@ function Urunlerimiz() {
           ></div>
           <div className="urunlerimizpagetext">
             <i class="fas fa-tree urunlerimizpagetext-icon"></i>
-            <p className="urunlerimizpagetext-title">Lorem ipsum</p>
-            <p className="urunlerimizpagetext-desc">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse cursus, sem vitae consectetur scelerisque, massa ipsum
-              consectetur quam, ac commodo ligula mi non nisl. Fusce quis ex
-              lorem.{" "}
-            </p>
+            <p className="urunlerimizpagetext-title">İbreli Bitkiler</p>
           </div>
           <div
             className="urunlerimizpageimgtwo"

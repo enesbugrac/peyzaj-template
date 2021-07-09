@@ -20,14 +20,13 @@
   background-size: cover;
 }
 .urunlerimizpagetext {
+  padding-top: 100px;
   width: 25%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
   background-color: #495057;
   color: #6b9080;
-  padding: 25px;
   text-align: center;
 }
 .urunlerimizpagetext-icon {
@@ -71,6 +70,7 @@
   }
   .urunlerimizpagetext {
     width: 100%;
+    padding: 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -83,7 +83,7 @@
     font-size: 20px;
   }
   .urunlerimizpagetext-title {
-    font-size: 2px;
+    font-size: 20px;
   }
   .urunlerimizpagetext-desc {
     font-size: 8px;

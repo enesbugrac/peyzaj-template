@@ -1,69 +1,119 @@
 .iletisimpage {
   margin-top: -100px;
-  background-color: #495057;
-  padding: 220px 200px;
+  background-color: black;
   height: 110vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+.haritadisdiv {
+  width: 500px;
+  height: 300px;
+  padding: 5px;
+  border: 0;
+  display: flex;
+  flex-direction: row;
+  text-align: bottom;
+  border-bottom: 3px solid #fff;
+}
 .iletisimpage-yazilar {
   display: flex;
+  padding-top: 200px;
+  padding-left: 240px !important;
+  width: 500px;
+
   flex-direction: column;
 }
 .titleiletisim {
-  color: #427aa1;
+  color: #fff;
   font-weight: 200;
   font-size: 50px;
   margin-bottom: 55px;
 }
 .iletisimpage-desc {
   font-weight: 100;
-
   font-size: 20px;
-  color: #6b9080;
+  color: #fff;
 }
 .iletisimitem {
   margin-bottom: 25px;
   font-weight: 100;
   font-size: 20px;
 }
+.iletisimitemharita {
+  margin-right: 25px;
+  font-weight: 100;
+  margin-top: 150px;
+  font-size: 20px;
+  color: #fff;
+  bottom: 0;
+}
 .iletisimharita {
-  width: 600px;
-  height: 450px;
+  width: 400px;
+  height: 175px;
   border: 0;
+}
+.haritalardizilim {
+  display: flex;
+  padding: 100px 250px;
+  flex-direction: column;
 }
 @media screen and (max-width: 768px) {
   .iletisimpage {
     margin-top: -80px;
-    background-color: #495057;
-    padding: 100px 30px;
-    height: 90vh;
+    padding: 10px 30px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
   }
   .iletisimharita {
-    width: 300px;
-    height: 200px;
+    width: 200px;
+    height: 100px;
     border: 0;
   }
   .iletisimpage-yazilar {
     display: flex;
+    padding-top: 100px;
+    padding-left: 50px !important;
+    flex-direction: column;
+  }
+  .haritalardizilim {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 !important;
+    margin-bottom: 30px;
     flex-direction: column;
   }
   .titleiletisim {
-    color: #427aa1;
     font-weight: 200;
     font-size: 30px;
     margin-bottom: 15px;
   }
+  .iletisimitemharita {
+    margin-right: 20px;
+    font-weight: 100;
+    margin-top: 50px;
+    font-size: 20px;
+    color: #fff;
+    bottom: 0;
+  }
   .iletisimpage-desc {
     font-weight: 100;
     font-size: 13px;
-    color: #6b9080;
   }
   .iletisimitem {
     font-weight: 100;
     font-size: 20px;
+  }
+  .haritadisdiv {
+    width: 200px;
+    height: 100px;
+    margin-bottom: 30px;
+    padding: 0;
+    border: 0;
+    display: flex;
+    flex-direction: row;
+    text-align: bottom;
+    border-bottom: 3px solid #fff;
   }
 }

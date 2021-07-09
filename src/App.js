@@ -17,6 +17,14 @@ import Hizmetlerimiz from "./components/pages/Hizmetlerimiz";
 import Demre from "./components/pages/Demre";
 import Bogacayi from "./components/pages/Bogacayi";
 import Expo from "./components/pages/Expo";
+import KGMExpo from "./components/pages/KGMExpo";
+import Konyaalti from "./components/pages/Konyaalti";
+import Kaleici from "./components/pages/Kaleici";
+import KaleiciMermerPark from "./components/pages/Kaleicimermerli";
+import Korkuteli from "./components/pages/Korkuteli";
+import Suryapi from "./components/pages/Suryapi";
+import DemrePark from "./components/pages/DemrePark";
+
 import ScrollToTop from "react-scroll-to-top";
 import Urunlerimiz from "./components/pages/Urunlerimiz";
 function App() {
@@ -46,6 +54,17 @@ function App() {
         <Route path="/referanslar/bogacayi" exact component={Bogacayi} />
         <Route path="/referanslar/demresahili" exact component={Demre} />
         <Route path="/referanslar/expo" exact component={Expo} />
+        <Route path="/referanslar/demrepark" exact component={DemrePark} />
+        <Route path="/referanslar/kaleici" exact component={Kaleici} />
+        <Route
+          path="/referanslar/kaleicimermelipark"
+          exact
+          component={KaleiciMermerPark}
+        />
+        <Route path="/referanslar/kgmexpo" exact component={KGMExpo} />
+        <Route path="/referanslar/konyaalti" exact component={Konyaalti} />
+        <Route path="/referanslar/korkuteli" exact component={Korkuteli} />
+        <Route path="/referanslar/suryapi" exact component={Suryapi} />
         <Route path="/urunlerimiz" exact component={Urunlerimiz} />
         <Route path="/admin" exact component={Admin} />
         <Route path="/hakkımızda" exact component={Hakkimizda} />
