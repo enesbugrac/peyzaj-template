@@ -61,8 +61,8 @@
 @media screen and (max-width: 768px) {
   .iletisimpage {
     margin-top: -80px;
-    padding: 10px 30px;
-    height: 100vh;
+    padding: 0 10px;
+    height: 120vh;
     display: flex;
     flex-direction: column;
   }
@@ -74,7 +74,8 @@
   .iletisimpage-yazilar {
     display: flex;
     padding-top: 100px;
-    padding-left: 50px !important;
+    width: auto !important;
+    padding-left: 10px !important;
     flex-direction: column;
   }
   .haritalardizilim {

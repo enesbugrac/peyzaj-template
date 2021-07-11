@@ -90,7 +90,13 @@
     width: 84%;
   }
 }
-
+@media screen and (max-width: 736px) {
+  .cards {
+    height: 230vh !important;
+    padding: 4rem;
+    background: #495057;
+  }
+}
 @media only screen and (min-width: 1024px) {
   .cards__items {
     display: flex;
