@@ -2,7 +2,7 @@ import React from "react";
 import Button from "./Button";
 import "./Hero.style.css";
 import anasayfa from "../videos/anasayfa.mp4";
-import poster from "../images/poster.jpg";
+import poster from "../images/fidanlik5.JPG";
 
 import LoadingOverlay from "react-loading-overlay";
 import { useState } from "react";

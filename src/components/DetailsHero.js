@@ -13,7 +13,7 @@ function DetailsHero() {
         background: `-webkit-linear-gradient(bottom, rgba(39,39,39,1) 0%,rgba(39,39,39,0.75) 26%,rgba(39,39,39,0.2) 100%)`,
       }}
     >
-      <video src={muz} poster={muz1} autoPlay loop muted />
+      <video src={muz} playsinline poster={muz1} autoPlay loop muted />
       <br></br>
       <br></br>
       <br></br>

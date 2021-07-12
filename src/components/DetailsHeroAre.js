@@ -13,7 +13,7 @@ function DetailsHeroAre() {
         background: `-webkit-linear-gradient(bottom, rgba(39,39,39,1) 0%,rgba(39,39,39,0.75) 26%,rgba(39,39,39,0.2) 100%)`,
       }}
     >
-      <video src={are} poster={arec1} autoPlay loop muted />
+      <video src={are} playsinline poster={arec1} autoPlay loop muted />
       <br></br>
       <br></br>
       <br></br>
