@@ -26,9 +26,9 @@ function DetailsHeroAre() {
 
       <div className="detailshero__text">
         <Fade top>
-          <h1 className="detailshero__title">Arecastrum Üretim Merkezi</h1>
+          <h1 className="detailshero__title">Mandırlar Üretim Tesisleri</h1>
 
-          <p className="detailshero__desc">Aksu/ANTALYA</p>
+          <p className="detailshero__desc">Mandırlar-Aksu/ANTALYA</p>
         </Fade>
       </div>
     </div>

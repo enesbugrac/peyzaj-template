@@ -9,11 +9,10 @@ function Footer() {
       <div class="footer-links">
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
-            <Link to="/">Fax: +90 242 322 55 72</Link>
-            <Link to="/">Santral: +90 533 154 03 72</Link>
-            <Link to="/">
-              Adres: Başköy Mah. Narçiçeği Sok. No:26 Kepez/ANTALYA
-            </Link>
+            <Link>Fax: +90 242 322 55 72</Link>
+            <Link>Santral: +90 533 154 03 72</Link>
+            <Link>Adres: Başköy Mah. Narçiçeği Sok. No:26 Kepez/ANTALYA</Link>
+            <Link>Email: info@pergepeyzaj.com</Link>
           </div>
         </div>
       </div>

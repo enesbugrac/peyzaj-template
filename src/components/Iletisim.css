@@ -71,6 +71,9 @@
     height: 100px;
     border: 0;
   }
+  .baslik {
+    font-size: 50px;
+  }
   .iletisimpage-yazilar {
     display: flex;
     padding-top: 100px;

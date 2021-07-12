@@ -63,24 +63,24 @@ function Cards() {
             onClick={(data, path) => detailsModalShow(data, path)}
             src={fidanlikana}
             path="/fidanlik"
-            text="Fidanlık Merkezi"
-            desc="Kepez/ANTALYA"
+            text="Ofis ve Merkez Fidanlık"
+            desc="Başköy-Kepez/ANTALYA"
             label="Perge"
           />
           <CardItem
             onClick={(data, path) => detailsModalShow(data, path)}
             src={arecastrumuretimsahasiImg[0]}
             path="/arecastrum"
-            desc="Aksu/ANTALYA"
-            text="Arecastrum Üretim Merkezi"
+            desc="Mandırlar-Aksu/ANTALYA"
+            text="Mandırlar Üretim Tesisleri"
             label="Perge"
           />
           <CardItem
             onClick={(data, path) => detailsModalShow(data, path)}
             src={muzuretimsahasiImg[0]}
             path="/muz"
-            text="Muz Üretim Merkezi"
-            desc="Boğazkent/ANTALYA"
+            text="Boğazkent Üretim Tesisleri"
+            desc="Boğazkent-Serik/ANTALYA"
             label="Perge"
           />
         </ul>
