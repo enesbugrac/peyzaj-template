@@ -62,7 +62,7 @@
   .iletisimpage {
     margin-top: -80px;
     padding: 0 10px;
-    height: 120vh;
+    height: 140vh;
     display: flex;
     flex-direction: column;
   }
@@ -97,7 +97,7 @@
     margin-right: 20px;
     font-weight: 100;
     margin-top: 50px;
-    font-size: 20px;
+    font-size: 18px;
     color: #fff;
     bottom: 0;
   }
@@ -110,7 +110,7 @@
     font-size: 20px;
   }
   .haritadisdiv {
-    width: 200px;
+    width: 350px;
     height: 100px;
     margin-bottom: 30px;
     padding: 0;
@@ -119,5 +119,9 @@
     flex-direction: row;
     text-align: bottom;
     border-bottom: 3px solid #fff;
+  }
+  .baslik {
+    font-weight: 100;
+    font-size: 28px;
   }
 }
