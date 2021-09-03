@@ -24,7 +24,10 @@ function Referanslar() {
         <div className="content">
           <div className="inner">
             <header className="major">
-              <h3 className="majortitle">Boğaçayı</h3>
+              <h3 className="majortitle">
+                BOĞAÇAYI VE FALEZLER
+                <p>ÇEVRE DÜZNELEMESİ PEYZAJ İŞLERİ</p>
+              </h3>
             </header>
             <Button
               className="btns"
@@ -47,7 +50,9 @@ function Referanslar() {
         <div className="content">
           <div className="inner">
             <header className="major">
-              <h3 className="majortitle">Expo Büyükşehir</h3>
+              <h3 className="majortitle">
+                ANTALYA EXPO2016 <p>ANTALYA BÜYÜKŞEHİR BELEDİYESİ FUAR ALANI</p>
+              </h3>
             </header>
             <Button
               className="btns"
@@ -70,7 +75,10 @@ function Referanslar() {
         <div className="content">
           <div className="inner">
             <header className="major">
-              <h3 className="majortitle">Demre Sahil</h3>
+              <h3 className="majortitle">
+                ANTALYA İLİ DEMRE İLÇESİ{" "}
+                <p>SAHİL PROJESİ İNŞAAT, PEYZAJ VE ÇEVRE DÜZENLEMESİ</p>
+              </h3>
             </header>
             <Button
               className="btns"
@@ -93,7 +101,10 @@ function Referanslar() {
         <div className="content">
           <div className="inner">
             <header className="major">
-              <h3 className="majortitle">Demre Park</h3>
+              <h3 className="majortitle">
+                ANTALYA İLİ DEMRE İLÇESİ{" "}
+                <p>PAZAR YERİ OTOPARK VE MAHALLE PARKI ÇEVRE DÜZENLEMELERİ</p>
+              </h3>
             </header>
             <Button
               className="btns"
@@ -116,7 +127,10 @@ function Referanslar() {
         <div className="content">
           <div className="inner">
             <header className="major">
-              <h3 className="majortitle">Kaleiçi</h3>
+              <h3 className="majortitle">
+                KALEİÇİ KENTSEL TASARIM UYGULAMA{" "}
+                <p>ÇEVRE DÜZENLEME VE PEYZAJ İŞLERİ</p>
+              </h3>
             </header>
             <Button
               className="btns"
@@ -132,29 +146,7 @@ function Referanslar() {
           </div>
         </div>
       </section>
-      <section>
-        <a href="/referanslar/kaleicimermelipark" className="image">
-          <img src={kaleicimermelipark} alt="" />
-        </a>
-        <div className="content">
-          <div className="inner">
-            <header className="major">
-              <h3 className="majortitle">Kaleiçi Mermerli Park</h3>
-            </header>
-            <Button
-              className="btns"
-              buttonStyle="btn--outline"
-              onClick={() => {
-                window.scrollTo(0, 0);
-                history.push("/referanslar/kaleicimermelipark");
-              }}
-              buttonSize="btn--medium"
-            >
-              Daha Fazlasını Gör
-            </Button>
-          </div>
-        </div>
-      </section>
+
       <section>
         <a href="/referanslar/kgmexpo" className="image">
           <img src={kgmexpo} alt="" />
@@ -162,7 +154,10 @@ function Referanslar() {
         <div className="content">
           <div className="inner">
             <header className="major">
-              <h3 className="majortitle">KGM Expo</h3>
+              <h3 className="majortitle">
+                ANTALYA EXPO2016{" "}
+                <p>KARAYOLLARI 13. BÖLGE MÜDÜRLÜĞÜ FUAR ALANI </p>
+              </h3>
             </header>
             <Button
               className="btns"
@@ -185,7 +180,13 @@ function Referanslar() {
         <div className="content">
           <div className="inner">
             <header className="major">
-              <h3 className="majortitle">Konyaaltı</h3>
+              <h3 className="majortitle">
+                KONYAALTI DOĞU SAHİLİ VE AKDENİZ BULVARI KENTSEL TASARIM VE
+                <p>
+                  {" "}
+                  ÇEVRE DÜZENLEMESİ İŞİ SULAMA,BİTKİSEL VE YAPISAL PEYZAJ İŞLERİ
+                </p>
+              </h3>
             </header>
             <Button
               className="btns"
@@ -208,7 +209,9 @@ function Referanslar() {
         <div className="content">
           <div className="inner">
             <header className="major">
-              <h3 className="majortitle">Korkuteli</h3>
+              <h3 className="majortitle">
+                KANAL KORKUTELİ <p>ÇEVRESİ PEYZAJ, ELEKTRİK, SULAMA</p>
+              </h3>
             </header>
             <Button
               className="btns"
@@ -231,7 +234,10 @@ function Referanslar() {
         <div className="content">
           <div className="inner">
             <header className="major">
-              <h3 className="majortitle">Sur Yapı</h3>
+              <h3 className="majortitle">
+                ANTALYA KEPEZ VE SANTRAL MAHALLELERİ{" "}
+                <p>KENTSEL DÖNÜŞÜM PROJESİ(SURYAPI)</p>
+              </h3>
             </header>
             <Button
               className="btns"

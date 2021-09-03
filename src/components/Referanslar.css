@@ -18,7 +18,7 @@ header.major {
   width: 30px;
 }
 .majortitle {
-  font-size: 35px;
+  font-size: 28px;
   font-weight: 100;
 }
 .majorp {
@@ -163,7 +163,7 @@ body.is-ie header.major > h1:after {
     width: 45%;
   }
   .majortitle {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 100;
   }
   .spotlights > section > .content {
@@ -191,7 +191,7 @@ body.is-ie header.major > h1:after {
     padding: 3em 1.5em 1em 1.5em;
   }
   .majortitle {
-    font-size: 30px;
+    font-size: 18px;
     font-weight: 100;
   }
 }

@@ -19,22 +19,22 @@ function Footer() {
       <section class="social-media">
         <div class="social-media-wrap">
           <div class="social-icons">
-            <Link
+            <a
               class="social-icon-link facebook"
-              to="/"
+              href="https://www.facebook.com/pergepeyzaj.1/"
               target="_blank"
               aria-label="Facebook"
             >
               <i class="fab fa-facebook-f" style={{ color: "#283618" }} />
-            </Link>
-            <Link
+            </a>
+            <a
               class="social-icon-link instagram"
-              to="/"
+              href="https://www.instagram.com/perge.peyzaj/?hl=tr"
               target="_blank"
               aria-label="Instagram"
             >
               <i class="fab fa-instagram" style={{ color: "#283618" }} />
-            </Link>
+            </a>
             <Link
               class="social-icon-link youtube"
               to="/"
@@ -43,22 +43,15 @@ function Footer() {
             >
               <i class="fab fa-youtube" style={{ color: "#283618" }} />
             </Link>
-            <Link
+
+            <a
               class="social-icon-link twitter"
-              to="/"
-              target="_blank"
-              aria-label="Twitter"
-            >
-              <i class="fab fa-twitter" style={{ color: "#283618" }} />
-            </Link>
-            <Link
-              class="social-icon-link twitter"
-              to="/"
+              href="https://www.linkedin.com/in/perge-peyzaj-in%C5%9Faat-sanayi-ve-ticaret-anonim-%C5%9Firketi-899a8a112/"
               target="_blank"
               aria-label="LinkedIn"
             >
               <i class="fab fa-linkedin" style={{ color: "#283618" }} />
-            </Link>
+            </a>
           </div>
         </div>
       </section>
