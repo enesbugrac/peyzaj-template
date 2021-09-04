@@ -2,6 +2,7 @@
   background-color: #6c757d;
   padding: 0.5rem 0 2rem 0;
   display: flex;
+  height: 250px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -28,7 +29,7 @@
 
 .footer-subscription-heading {
   margin-bottom: 24px;
-  font-size: 24px;
+  font-size: 16px;
 }
 
 .footer-subscription-text {
@@ -80,7 +81,7 @@
 
 .footer-link-items a {
   color: #283618;
-
+  font-size: 16px;
   text-decoration: none;
   margin-bottom: 0.5rem;
 }
@@ -101,7 +102,7 @@
 /* Social Icons */
 .social-icon-link {
   color: #fff;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .social-media {
@@ -113,6 +114,7 @@
 .haklarisaklidir-title {
   border-top: #283618 solid 2px;
   padding-top: 20px;
+  font-size: 16px;
   margin-top: 10px;
   color: #283618;
 }
@@ -152,6 +154,16 @@
 }
 
 @media screen and (max-width: 820px) {
+  .footer-container {
+    background-color: #6c757d;
+    padding: 0.5rem 0 2rem 0;
+    display: flex;
+    height: auto !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .footer-links {
     padding-top: 2rem;
   }

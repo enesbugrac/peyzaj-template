@@ -17,12 +17,12 @@ function Hakkimizda() {
             </h3>
             <br></br>
             <h3 className="hakkimizda-yazi">
-              &nbsp;&nbsp;&nbsp;Merkez ofisimiz 3000 m2 kapalı olmak üzere
+              &nbsp;&nbsp;&nbsp; Merkez ofisimiz 3000 m2 kapalı olmak üzere
               toplamda 20.000 m2 alan ile Antalya’nın Kepez İlçesi Başköy
               mahallesinde, diğer üretim tesisimiz 20.000 m2 alan ile
               Antalya’nın Aksu İlçesinde ve bir diğer üretim tesisimiz de 25.000
               m2'si kapalı toplamda 35.000 m2 üretim alanıyla Boğazkent/Serik
-              ilçesinde bulunmaktadır.
+              ilçesinde olmak üzere toplmada 75.000 m2 alanımız bulunmaktadır.
             </h3>
             <br></br>
             <h3 className="hakkimizda-yazi">

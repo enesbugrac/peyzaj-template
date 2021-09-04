@@ -26,7 +26,7 @@ function DetailsHero() {
 
       <div className="detailshero__text">
         <Fade top>
-          <h1 className="detailshero__title">Boğzakent Üretim Tesisleri</h1>
+          <h1 className="detailshero__title">Boğazkent Üretim Tesisleri</h1>
           <p className="detailshero__desc">Boğazkent-Serik/ANTALYA</p>
         </Fade>
       </div>

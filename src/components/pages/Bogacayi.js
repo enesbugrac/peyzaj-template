@@ -1,12 +1,12 @@
 import React from "react";
-import arec1 from "../../images/web-boğaçayı/bogacayi (1).jpg";
-import arec2 from "../../images/web-boğaçayı/bogacayi (2).jpg";
-import arec3 from "../../images/web-boğaçayı/bogacayi (3).jpg";
+import arec1 from "../../images/web-boğaçayı/bogacayi (1).jpeg";
+import arec2 from "../../images/web-boğaçayı/bogacayi (2).jpeg";
+import arec3 from "../../images/web-boğaçayı/bogacayi (3).jpeg";
 import arec4 from "../../images/web-boğaçayı/bogacayi (4).jpg";
 import arec5 from "../../images/web-boğaçayı/bogacayi (5).jpg";
-import arec6 from "../../images/web-boğaçayı/bogacayi (6).jpg";
+import arec6 from "../../images/web-boğaçayı/bogacayi (6).jpeg";
 import arec7 from "../../images/web-boğaçayı/bogacayi (7).jpg";
-import arec8 from "../../images/web-boğaçayı/bogacayi (8).JPG";
+import arec8 from "../../images/web-boğaçayı/bogacayi (8).jpeg";
 import "../Bogacayi.css";
 
 import Slide from "react-reveal/Slide";

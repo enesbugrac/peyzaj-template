@@ -1,7 +1,7 @@
 .iletisimpage {
   margin-top: -100px;
   background-color: black;
-  height: 110vh;
+  height: 130vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -44,7 +44,7 @@
   margin-right: 25px;
   font-weight: 100;
   margin-top: 150px;
-  font-size: 20px;
+  font-size: 16px;
   color: #fff;
   bottom: 0;
 }
@@ -58,6 +58,74 @@
   padding: 100px 250px;
   flex-direction: column;
 }
+@media screen and (max-width: 1280px) {
+  .iletisimpage {
+    margin-top: -80px;
+    padding: 80px 80px;
+    height: 140vh;
+    display: flex;
+  }
+  .iletisimharita {
+    width: 300px;
+    height: 150px;
+    border: 0;
+  }
+  .baslik {
+    font-size: 50px;
+  }
+  .iletisimpage-yazilar {
+    display: flex;
+    padding-top: 100px;
+    width: auto !important;
+    padding-left: 10px !important;
+    flex-direction: column;
+  }
+  .haritalardizilim {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 !important;
+    margin-bottom: 30px;
+    flex-direction: column;
+  }
+  .titleiletisim {
+    font-weight: 200;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .iletisimitemharita {
+    margin-right: 20px;
+    font-weight: 100;
+    margin-top: 40px;
+    font-size: 13px;
+    color: #fff;
+  }
+  .iletisimpage-desc {
+    font-weight: 100;
+    font-size: 13px;
+  }
+  .iletisimitem {
+    font-weight: 100;
+    font-size: 16px;
+  }
+  .haritadisdiv {
+    width: 450px;
+    height: 400px;
+    margin-bottom: 30px;
+    padding: 0;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    text-align: bottom;
+    border-bottom: 3px solid #fff;
+  }
+  .baslik {
+    font-weight: 100;
+    font-size: 28px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .iletisimpage {
     margin-top: -80px;
@@ -97,7 +165,7 @@
     margin-right: 20px;
     font-weight: 100;
     margin-top: 50px;
-    font-size: 18px;
+    font-size: 14px;
     color: #fff;
     bottom: 0;
   }

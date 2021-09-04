@@ -54,7 +54,10 @@ function Iletisim() {
       </div>
       <div className="haritalardizilim">
         <div className="haritadisdiv">
-          <p className="iletisimitemharita">Ofis ve Merkez Fidanlık</p>
+          <p className="iletisimitemharita">
+            Ofis ve Merkez Fidanlık &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;{" "}
+          </p>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12736.981332627458!2d30.637637235427785!3d37.051636428358805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c389714bcf061b%3A0x2e1ec552cd48fb6f!2zUEVSR0UgUEVZWkFKIMSwTsWeQUFUIFNBTkFZxLAgVkUgVMSwQ0FSRVQgQU5PTsSwTSDFnsSwUktFVMSw!5e0!3m2!1str!2str!4v1625172339334!5m2!1str!2str"
             className="iletisimharita"
@@ -63,7 +66,9 @@ function Iletisim() {
           ></iframe>
         </div>
         <div className="haritadisdiv">
-          <p className="iletisimitemharita">Mandırlar-Aksu/ANTALYA</p>
+          <p className="iletisimitemharita">
+            Merkez Mandırlar Mah. 5263 parsel Aksu/Antalya
+          </p>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1499.405265559724!2d30.83606665811585!3d36.917360994981124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzbCsDU1JzAyLjUiTiAzMMKwNTAnMTMuOCJF!5e1!3m2!1str!2str!4v1626092937847!5m2!1str!2str"
             className="iletisimharita"
@@ -72,7 +77,9 @@ function Iletisim() {
           ></iframe>
         </div>
         <div className="haritadisdiv">
-          <p className="iletisimitemharita">Boğazkent-Serik/ANTALYA</p>
+          <p className="iletisimitemharita">
+            Boğazkent Ahmediye Mah. 300 Ada 3031 Parsel Serik/Antalya
+          </p>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d750.2868995900711!2d31.16204482921736!3d36.85788599874603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzbCsDUxJzI4LjQiTiAzMcKwMDknNDUuMyJF!5e1!3m2!1str!2str!4v1626093116319!5m2!1str!2str"
             className="iletisimharita"

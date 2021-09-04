@@ -17,6 +17,10 @@ import arec15 from "../../images/urunlerimiz/urunlerimiz (15).jpeg";
 import arec16 from "../../images/urunlerimiz/urunlerimiz (16).jpeg";
 import arec17 from "../../images/urunlerimiz/urunlerimiz (17).jpeg";
 import arec18 from "../../images/urunlerimiz/urunlerimiz (18).jpeg";
+import arec19 from "../../images/urunlerimiz/urunlerimiz (19).jpeg";
+import arec20 from "../../images/urunlerimiz/urunlerimiz (20).jpeg";
+import arec21 from "../../images/urunlerimiz/urunlerimiz (21).jpeg";
+import arec22 from "../../images/urunlerimiz/urunlerimiz (22).jpeg";
 import "../Urunlerimiz.css";
 import Slide from "react-reveal/Slide";
 function Urunlerimiz() {
@@ -200,6 +204,46 @@ function Urunlerimiz() {
             className="urunlerimizpageimgtwo"
             style={{
               backgroundImage: `url('${arec18}')`,
+            }}
+          ></div>
+        </Slide>
+      </div>
+      <div className="urunlerimizsayfa">
+        <Slide left>
+          <div
+            style={{
+              backgroundImage: `url('${arec19}')`,
+            }}
+            className="urunlerimizpageimgtwo"
+          ></div>
+          <div className="urunlerimizpagetext">
+            <i class="fab fa-pagelines urunlerimizpagetext-icon"></i>
+            <p className="urunlerimizpagetext-title">İthal Süs Bitkileri</p>
+          </div>
+          <div
+            className="urunlerimizpageimgone"
+            style={{
+              backgroundImage: `url('${arec20}')`,
+            }}
+          ></div>
+        </Slide>
+      </div>
+      <div className="urunlerimizsayfa">
+        <Slide left>
+          <div
+            style={{
+              backgroundImage: `url('${arec21}')`,
+            }}
+            className="urunlerimizpageimgone"
+          ></div>
+          <div className="urunlerimizpagetext">
+            <i class="fas fa-tree urunlerimizpagetext-icon"></i>
+            <p className="urunlerimizpagetext-title">İbreli Bitkiler</p>
+          </div>
+          <div
+            className="urunlerimizpageimgtwo"
+            style={{
+              backgroundImage: `url('${arec22}')`,
             }}
           ></div>
         </Slide>

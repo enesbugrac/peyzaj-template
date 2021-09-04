@@ -1,6 +1,6 @@
 import React from "react";
 import "../Referanslar.css";
-import bogacayi from "../../images/web-boğaçayı/bogacayi (1).jpg";
+import bogacayi from "../../images/web-boğaçayı/bogacayi (1).jpeg";
 import demre from "../../images/web-demre sahil/demre (3).JPG";
 import expo from "../../images/web-expo büyükşehir/expo (2).JPG";
 import demrepark from "../../images/web - demre park/demrepark (3).jpg";
@@ -25,7 +25,7 @@ function Referanslar() {
           <div className="inner">
             <header className="major">
               <h3 className="majortitle">
-                BOĞAÇAYI VE FALEZLER
+                ANTALYA BOĞAÇAYI
                 <p>ÇEVRE DÜZNELEMESİ PEYZAJ İŞLERİ</p>
               </h3>
             </header>
@@ -51,7 +51,7 @@ function Referanslar() {
           <div className="inner">
             <header className="major">
               <h3 className="majortitle">
-                ANTALYA EXPO2016 <p>ANTALYA BÜYÜKŞEHİR BELEDİYESİ FUAR ALANI</p>
+                EXPO2016 ANTALYA BÜYÜKŞEHİR BELEDİYESİ <p>PAVİLYONU</p>
               </h3>
             </header>
             <Button
@@ -102,8 +102,8 @@ function Referanslar() {
           <div className="inner">
             <header className="major">
               <h3 className="majortitle">
-                ANTALYA İLİ DEMRE İLÇESİ{" "}
-                <p>PAZAR YERİ OTOPARK VE MAHALLE PARKI ÇEVRE DÜZENLEMELERİ</p>
+                ANTALYA İLİ DEMRE İLÇESİ PAZAR YERİ
+                <p>OTOPARK VE MAHALLE PARKI ÇEVRE DÜZENLEMELERİ</p>
               </h3>
             </header>
             <Button
@@ -128,7 +128,7 @@ function Referanslar() {
           <div className="inner">
             <header className="major">
               <h3 className="majortitle">
-                KALEİÇİ KENTSEL TASARIM UYGULAMA{" "}
+                ANTALYA KALEİÇİ KENTSEL TASARIM UYGULAMA{" "}
                 <p>ÇEVRE DÜZENLEME VE PEYZAJ İŞLERİ</p>
               </h3>
             </header>
@@ -155,8 +155,8 @@ function Referanslar() {
           <div className="inner">
             <header className="major">
               <h3 className="majortitle">
-                ANTALYA EXPO2016{" "}
-                <p>KARAYOLLARI 13. BÖLGE MÜDÜRLÜĞÜ FUAR ALANI </p>
+                EXPO2016 TCK 13. BÖLGE MÜDÜRLÜĞÜ
+                <p>PAVİLYONU </p>
               </h3>
             </header>
             <Button
@@ -181,11 +181,8 @@ function Referanslar() {
           <div className="inner">
             <header className="major">
               <h3 className="majortitle">
-                KONYAALTI DOĞU SAHİLİ VE AKDENİZ BULVARI KENTSEL TASARIM VE
-                <p>
-                  {" "}
-                  ÇEVRE DÜZENLEMESİ İŞİ SULAMA,BİTKİSEL VE YAPISAL PEYZAJ İŞLERİ
-                </p>
+                ANTALYA KONYAALTI SAHİLİ-SAHİL ANTALYA
+                <p>YAŞAM PARKI PEYZAJ UYGULAMASI</p>
               </h3>
             </header>
             <Button
@@ -210,7 +207,7 @@ function Referanslar() {
           <div className="inner">
             <header className="major">
               <h3 className="majortitle">
-                KANAL KORKUTELİ <p>ÇEVRESİ PEYZAJ, ELEKTRİK, SULAMA</p>
+                ANTALYA KANAL KORKUTELİ <p>ÇEVRESİ PEYZAJ UYGULAMASI</p>
               </h3>
             </header>
             <Button
@@ -236,7 +233,7 @@ function Referanslar() {
             <header className="major">
               <h3 className="majortitle">
                 ANTALYA KEPEZ VE SANTRAL MAHALLELERİ{" "}
-                <p>KENTSEL DÖNÜŞÜM PROJESİ(SURYAPI)</p>
+                <p>KENTSEL DÖNÜŞÜM PROJESİ (SURYAPI)</p>
               </h3>
             </header>
             <Button

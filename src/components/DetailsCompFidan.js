@@ -120,20 +120,6 @@ function DetailsComp() {
           }}
         ></article>
       </Slide>
-      <Slide left>
-        <article
-          style={{
-            backgroundImage: `url('${fidanlik15}')`,
-          }}
-        ></article>
-      </Slide>
-      <Slide right>
-        <article
-          style={{
-            backgroundImage: `url('${fidanlik16}')`,
-          }}
-        ></article>
-      </Slide>
     </section>
   );
 }
