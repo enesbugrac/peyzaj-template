@@ -26,7 +26,7 @@ function Referanslar() {
             <header className="major">
               <h3 className="majortitle">
                 ANTALYA BOĞAÇAYI
-                <p>ÇEVRE DÜZNELEMESİ PEYZAJ İŞLERİ</p>
+                <p>ÇEVRE DÜZENLEMESİ PEYZAJ İŞLERİ</p>
               </h3>
             </header>
             <Button
