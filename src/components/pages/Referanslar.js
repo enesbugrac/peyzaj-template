@@ -155,8 +155,8 @@ function Referanslar() {
           <div className="inner">
             <header className="major">
               <h3 className="majortitle">
-                EXPO2016 TCK 13. BÖLGE MÜDÜRLÜĞÜ
-                <p>PAVİLYONU </p>
+                EXPO 2016 TCK 13. BÖLGE MÜDÜRLÜĞÜ
+                <p>PAVYONU </p>
               </h3>
             </header>
             <Button
