@@ -51,7 +51,7 @@ function Referanslar() {
           <div className="inner">
             <header className="major">
               <h3 className="majortitle">
-                EXPO2016 ANTALYA BÜYÜKŞEHİR BELEDİYESİ <p>PAVİLYONU</p>
+                EXPO 2016 ANTALYA BÜYÜKŞEHİR BELEDİYESİ <p>PAVYONU</p>
               </h3>
             </header>
             <Button
