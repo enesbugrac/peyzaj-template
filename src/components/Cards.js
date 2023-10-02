@@ -2,7 +2,6 @@ import React from "react";
 import CardItem from "./CardItem";
 import "./Cards.css";
 import { useState } from "react";
-import "react-image-lightbox/style.css";
 
 import fidanlikana from "../images/fidanlikana.jpg";
 

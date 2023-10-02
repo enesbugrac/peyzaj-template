@@ -4,8 +4,6 @@ import "./Hero.style.css";
 import anasayfa from "../videos/anasayfa.mp4";
 import poster from "../images/fidanlik5.JPG";
 
-import LoadingOverlay from "react-loading-overlay";
-import { useState } from "react";
 import Fade from "react-reveal/Fade";
 
 function Hero() {

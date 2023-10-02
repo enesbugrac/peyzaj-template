@@ -47,49 +47,39 @@ function Navbar() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link
-              to="/hakkımızda"
-              className="nav-links"
-              onClick={closeMobileMenu}
-            >
+            <Link to="/hakkımızda" className="nav-links" onClick={closeMobileMenu}>
               Hakkımızda
             </Link>
           </li>
           <li className="nav-item">
-            <Link
-              to="/urunlerimiz"
-              className="nav-links"
-              onClick={closeMobileMenu}
-            >
+            <Link to="/urunlerimiz" className="nav-links" onClick={closeMobileMenu}>
               ÜRÜNLERİMİZ
             </Link>
           </li>
           <li className="nav-item">
-            <Link
-              to="/hizmetlerimiz"
-              className="nav-links"
-              onClick={closeMobileMenu}
-            >
+            <Link to="/hizmetlerimiz" className="nav-links" onClick={closeMobileMenu}>
               HİZMETLERİMİZ
             </Link>
           </li>
           <li className="nav-item">
-            <Link
-              to="/referanslar"
-              className="nav-links"
-              onClick={closeMobileMenu}
-            >
+            <Link to="/referanslar" className="nav-links" onClick={closeMobileMenu}>
               Referanslar{" "}
             </Link>
           </li>
           <li className="nav-item">
-            <Link
-              to="/iletisim"
-              className="nav-linksson"
-              onClick={closeMobileMenu}
-            >
+            <Link to="/iletisim" className="nav-links" onClick={closeMobileMenu}>
               İLETİŞİM
             </Link>
+          </li>
+          <li className="nav-item">
+            <a
+              href="/katalog.pdf"
+              rel="noreferrer"
+              target="_blank"
+              className="nav-linksson"
+            >
+              KATALOG
+            </a>
           </li>
         </ul>
       </div>
